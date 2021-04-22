@@ -2,7 +2,7 @@ defmodule Inmana.Supply do
   use Ecto.Schema
   import Ecto.Changeset
 
-  alias Inmama.Restaurant
+  alias Inmana.Restaurant
 
   @primary_key {:id, :binary_id, autogenerate: true}
   @foreign_key_type :binary_id
