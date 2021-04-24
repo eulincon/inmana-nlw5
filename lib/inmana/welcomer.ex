@@ -23,6 +23,6 @@ defmodule Inmana.Welcomer do
   end
 
   defp evaluate(name, _age) do
-    {:error, "You shall not pass pass #{name}"}
+    {:error, "You shall not pass #{name}"}
   end
 end
